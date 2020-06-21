@@ -1,0 +1,75 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+ 
+ 
+ body{
+    font-family: 'Cairo', sans-serif;
+}
+
+*, ::after, ::before {
+    box-sizing: unset;
+    font-family: 'Cairo', sans-serif;
+}
+
+.con{
+    margin: 0 -15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    
+}
+
+
+
+
+
+.payment{
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    margin: 0 15px 30px 15px;
+    border: 1px #cccccc solid;
+    border-radius: 3px;
+    padding: 10px;
+
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+
+  @media (min-width: 768px){
+  .container, .container-md, .container-sm {
+      max-width: 670px;
+  }}
+
+
+
+  
+@media screen and (max-width: 497px)  {
+   .payment {
+    width: 65px;
+    height: 65px;
+    }
+  }
+
+  
